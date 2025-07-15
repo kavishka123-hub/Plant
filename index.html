@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <style>
@@ -301,11 +302,11 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 30px;
+            gap: 20px;
         }
 
         .category {
-            flex: 1 1 300px;
+            flex: 1 1 260px;
             background: var(--white);
             border-radius: 10px;
             overflow: hidden;
@@ -826,39 +827,40 @@
     </header>
 
     <!-- Hero Slider -->
-    <section class="hero-slider" id="home">
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="" alt="Lush Indoor Plants">
-                    <div class="hero-content">
-                        <h1>Breathe Nature Into Your Life</h1>
-                        <p>Discover the perfect plants to transform your space and uplift your spirit. Our nursery grows each plant with care and dedication.</p>
-                        <a href="#plants" class="btn">Explore Our Plants</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://images.unsplash.com/photo-1517191434949-5e90cd67d2b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1800&q=80" alt="Plant Collection">
-                    <div class="hero-content">
-                        <h1>Premium Quality Plants</h1>
-                        <p>Carefully cultivated for health and beauty, our plants are selected to thrive in your home environment.</p>
-                        <a href="#plants" class="btn">View Collections</a>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1800&q=80" alt="Plant Care">
-                    <div class="hero-content">
-                        <h1>Expert Plant Care</h1>
-                        <p>Learn how to keep your plants thriving with our expert tips and personalized advice.</p>
-                        <a href="#care" class="btn">Care Tips</a>
-                    </div>
+   <!-- Hero Slider -->
+<section class="hero-slider" id="home">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/plant1.jpg" alt="Lush Indoor Plants">
+                <div class="hero-content">
+                    <h1>Breathe Nature Into Your Life</h1>
+                    <p>Discover the perfect plants to transform your space and uplift your spirit. Our nursery grows each plant with care and dedication.</p>
+                    <a href="#plants" class="btn">Explore Our Plants</a>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-slide">
+                <img src="images/plant2.jpg" alt="Plant Collection">
+                <div class="hero-content">
+                    <h1>Premium Quality Plants</h1>
+                    <p>Carefully cultivated for health and beauty, our plants are selected to thrive in your home environment.</p>
+                    <a href="#plants" class="btn">View Collections</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/image4.jpg" alt="Plant Care">
+                <div class="hero-content">
+                    <h1>Expert Plant Care</h1>
+                    <p>Learn how to keep your plants thriving with our expert tips and personalized advice.</p>
+                    <a href="#care" class="btn">Care Tips</a>
+                </div>
+            </div>
         </div>
-    </section>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
 
     <!-- About Section -->
     <section class="section" id="about">
@@ -868,13 +870,14 @@
             </div>
             <div class="about-content">
                 <div class="about-text fade-in">
-                    <h3>Growing Green Since 1985</h3>
+                    <h3>Growing Green Since 2010
+                    </h3>
                     <p>Verdant Haven began as a small family nursery with a passion for plants and has grown into one of the region's most trusted sources for quality greenery. Our founder, Evelyn Green, started with just a greenhouse and a dream to bring nature into every home.</p>
                     <p>Today, we maintain those same values of quality, sustainability, and education. All our plants are grown using organic methods, and we prioritize native species that thrive in local conditions.</p>
                     <p>Our mission is to connect people with nature through plants, providing not just products but the knowledge to help them flourish in your care.</p>
                 </div>
                 <div class="about-image fade-in">
-                    <img src="https://images.unsplash.com/photo-1598880940080-ff9a29891b85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Plant Nursery">
+                    <img src="images/plant2.jpg" alt="Plant Nursery">
                 </div>
             </div>
         </div>
@@ -889,7 +892,7 @@
             <div class="plant-categories">
                 <div class="category fade-in">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1517191434949-5e90cd67d2b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Indoor Plants">
+                        <img src="images/Indoor plants.jpg" alt="Indoor Plants">
                     </div>
                     <div class="category-content">
                         <h3>Indoor Plants</h3>
@@ -899,7 +902,7 @@
                 </div>
                 <div class="category fade-in">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Outdoor Plants">
+                        <img src="images/Outdoor plant.jpg" alt="Outdoor Plants">
                     </div>
                     <div class="category-content">
                         <h3>Outdoor Plants</h3>
@@ -909,7 +912,7 @@
                 </div>
                 <div class="category fade-in">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Herbs">
+                        <img src="images/Herbs & Edibles plant.jpg" alt="Herbs">
                     </div>
                     <div class="category-content">
                         <h3>Herbs & Edibles</h3>
@@ -919,7 +922,7 @@
                 </div>
                 <div class="category fade-in">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Pots & Accessories">
+                        <img src="images/Plots.jpg" alt="Pots & Accessories">
                     </div>
                     <div class="category-content">
                         <h3>Pots & Accessories</h3>
@@ -1126,6 +1129,34 @@
     </footer>
 
     <script>
+
+          const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        
+        // Effect
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+    });
+
         // Mobile Menu Toggle
         const menuToggle = document.querySelector('.menu-toggle');
         const nav = document.querySelector('nav');
